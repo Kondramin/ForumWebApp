@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumWebApp", "ForumWebApp\ForumWebApp.csproj", "{D08CD795-11B6-4925-BDD5-483B2FA3FE2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumWebApp", "ForumWebApp\ForumWebApp.csproj", "{D08CD795-11B6-4925-BDD5-483B2FA3FE2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumDatabase", "ForumDatabase\ForumDatabase.csproj", "{6F69469A-0281-4027-8612-67CF91A10E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumDomains", "ForumDomains\ForumDomains.csproj", "{441FD59C-ECE8-420E-BFB1-1FF5882EC4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumInterfacesBase", "ForumInterfacesBase\ForumInterfacesBase.csproj", "{58CF1F40-DC7C-4F94-B680-5729A4B1DB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumInterfaces", "ForumInterfaces\ForumInterfaces.csproj", "{4C4BE0F5-FAAD-4EEF-A9F6-6AD59CBA3B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumServices", "ForumServices\ForumServices.csproj", "{FF52A9B3-28FE-48C4-A41C-FB6A1FB8A7A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{D08CD795-11B6-4925-BDD5-483B2FA3FE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08CD795-11B6-4925-BDD5-483B2FA3FE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08CD795-11B6-4925-BDD5-483B2FA3FE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F69469A-0281-4027-8612-67CF91A10E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F69469A-0281-4027-8612-67CF91A10E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F69469A-0281-4027-8612-67CF91A10E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F69469A-0281-4027-8612-67CF91A10E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441FD59C-ECE8-420E-BFB1-1FF5882EC4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441FD59C-ECE8-420E-BFB1-1FF5882EC4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441FD59C-ECE8-420E-BFB1-1FF5882EC4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441FD59C-ECE8-420E-BFB1-1FF5882EC4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CF1F40-DC7C-4F94-B680-5729A4B1DB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CF1F40-DC7C-4F94-B680-5729A4B1DB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CF1F40-DC7C-4F94-B680-5729A4B1DB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CF1F40-DC7C-4F94-B680-5729A4B1DB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4BE0F5-FAAD-4EEF-A9F6-6AD59CBA3B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4BE0F5-FAAD-4EEF-A9F6-6AD59CBA3B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4BE0F5-FAAD-4EEF-A9F6-6AD59CBA3B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4BE0F5-FAAD-4EEF-A9F6-6AD59CBA3B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF52A9B3-28FE-48C4-A41C-FB6A1FB8A7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF52A9B3-28FE-48C4-A41C-FB6A1FB8A7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF52A9B3-28FE-48C4-A41C-FB6A1FB8A7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF52A9B3-28FE-48C4-A41C-FB6A1FB8A7A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
